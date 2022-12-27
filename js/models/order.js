@@ -1,5 +1,5 @@
-export default function Order(code, basic, discont){
+export default function Order(code, basic, discount){
     this.code = code;
     this.basic = basic;
-    this.discont = discont;
+    this.discount = discount;
 }
